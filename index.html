@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="css/styles.css" rel="stylesheet">
+  <title>Eventfo - Home</title>
+</head>
+<body class="container full-height-grow">
+  <header class="main-header">
+    <a href="index.html" class="logo">
+      <img src="images/logo.png" alt="Eventfo Logo">
+      <div class="logo-name">Eventfo</div>
+    </a>
+    <nav class="navigation">
+      <ul>
+        <li class="active"><a href="index.html">Home</a></li>
+        <li><a href="generate.html">Generate</a></li>
+        <li><a href="info.html">Info</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="events.html">Events</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="account.html">Account</a></li>
+      </ul>
+      <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+      <script>
+        $(document).on('click', 'ul li', function(){
+          $(this).addClass('active').siblings().removeClass('active')
+        })
+      </script>
+    </nav>
+  </header>
+  <section class="home-main-section">
+    
+    <div class="call-to-action">
+      <h1 class="title">QR Codes for <span class="accent-text">Event</span> In<span class="accent-text">fo</span>rmation</h1>
+      <span class="subtitle">Generate one to use at your next event.</span>
+      <a href="generate.html" class="btn">Get Started</a>
+    </div>
+
+    <div class="img-wrapper">
+      <div class="homepage-image">
+        <img src="images/homepage_image.png" alt="QR Example Image">
+        
+        <!-- <div><span class="subtitle">Generate one to use at your next event.</span></div> -->
+
+      </div>
+      
+    </div>
+    
+    </section>
+    <!-- <footer class="footer">
+      <div class="container">
+        <nav class="footer-nav">
+          <ul>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </nav>
+        <nav class="footer-nav">
+          <ul>
+            <li>
+              <a href="https://nrusk.github.io/" class="social-links">
+                <img src="images/github.svg">
+              </a>
+            </li>
+            <li>
+              <a href="https://twitter.com/nathan_rusk" class="social-links">
+                <img src="images/twitter.svg">
+              </a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </footer> -->
+</body>
+</html>
